@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Feedback Form</title>
+<style>
+body{
+  background-color: floralwhite;
+}
+form{
+  background-color:antiquewhite;
+  border:5px Solid rgb(203,203,216);
+  border-radius:50px;
+  padding-left:40px;
+  padding-bottom:20px;
+  margin-top:30px;
+  margin-bottom:30px;
+  margin-right:400px;
+  margin-left:400px;
+}
+table,th,td{
+  border:2px Solid Black;
+  border-collapse:collapse;
+  text-align:center;
+  padding:3px;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  border-radius:25px;
+  padding: 16px 25px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+</style>
+</head>
+
+<body>
+<form>
+  <h1><center>Feedback Form</center></h1>
+
+  <label>First name:</label><br>
+  <input type="text"><br>
+<br>
+  <label>Last name:</label><br>
+  <input type="text"><br>
+<br>
+  <label>Email Id :</label><br>
+  <input type="email"><br>
+<br>
+  <label>Mobile No:</label><br>
+  <input type="tel"  pattern="[0-9]{10}" required><br>
+
+<p><b>Choose your Strem:</b></p>
+
+  <input type="radio" id="cse" name="dept">
+  <label for="cse">CSE</label><br>
+  <input type="radio" id="it" name="dept">
+  <label for="it">IT</label><br>
+  <input type="radio" id="ece" name="dept">
+  <label for="ece">ECE</label><br>
+  <input type="radio" id="eee" name="dept">
+  <label for="eee">EEE</label><br>
+	
+<p><b>Is the training useful to you</b></p>
+  <input type="radio" id="yes" name="Feedback">
+  <label for="yes">Yes</label><br>
+  <input type="radio" id="no" name="Feedback">
+  <label for="no">No</label><br><br>
+
+  <input type="submit">
+<br><br>
+
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>College</th>
+    <th>Company</th>
+  </tr>
+  <tr>
+    <td>Keerthana</td>
+    <td>KSRCE</td>
+    <td>TnS</td>
+  </tr>
+  <tr>
+    <td>Ilavarasan</td>
+    <td>KSRCE</td>
+    <td>TnS</td>
+  </tr>
+  <tr>
+    <td>Dharshini</td>
+    <td>KSRIET</td>
+    <td>TnS</td>
+  </tr>
+  <tr>
+    <td>Karthikeyan</td>
+    <td>KSRIET</td>
+    <td>TnS</td>
+  </tr>
+  <tr>
+    <td>Aravind</td>
+    <td>KSRCT</td>
+    <td>TnS</td>
+  </tr>
+  <tr>
+    <td>Muthukumar</td>
+    <td>KSRCT</td>
+    <td>TnS</td>
+  </tr>
+</table>
+
+
+
+</form> 
+
+
+</body>
+</html>
